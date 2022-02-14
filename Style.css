@@ -1,0 +1,472 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+.contenedor{
+    min-width: 22.375rem;
+    margin: auto;
+    padding: 0 5%;
+}
+header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header img{
+    width: 110px;
+    height: 20px;
+    
+}
+nav a{
+    text-decoration: none;
+    color:  hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 4px 18px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 3px hsla(322, 100%, 66%, 0.698);
+    text-shadow: 0px 0px 1px hsla(322, 100%, 66%, 0.698);
+     
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.one{
+    margin-top: 10rem;
+    text-align: center;
+}
+h1{
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.one img{
+    width: 100%;
+}
+.one p{
+    
+    margin-bottom: 60px;
+
+}
+.one a{
+    text-decoration: none;
+    color: white;
+    background: hsl(322, 100%, 66%);
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 15px 50px;
+    box-shadow: 0px 5px 7px #00252e57;
+    
+}
+.one figure{
+    margin-top: 9rem;
+    padding-bottom: 7rem;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h2{
+    font-size: 3.8em;
+}
+.mensajes p{
+   text-align: center;
+} 
+
+.user{
+    margin-bottom: 40px;
+}
+.user img, .mensajes img{
+    width: 40px;
+    height: 40px;
+}
+.three img{
+    width: 100%;
+    
+}
+.curva1{
+    background: url(images/bg-section-top-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 150px;
+
+}
+.bgone{
+    padding-top: 100px;
+    background-color: rgb(246 251 255);
+    text-align: center;
+    margin-top: -1px;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+.bgone picture img{
+    margin-bottom: 50px;
+}
+.tres h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.curva2{
+    background: url(images/bg-section-bottom-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    
+}
+.four{
+    padding-top: 10rem;
+    
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10rem;
+}
+.four img{
+   width: 100%;
+   margin-bottom: 100px;
+}
+
+.four h3{
+    font-size: 30px;
+   
+    font-weight: 700;
+    
+}
+.five picture{
+     margin-bottom: 7rem;
+}
+.five img{
+   width: 100%;
+  
+   
+}
+.curva3{
+    background: url(images/bg-section-top-mobile-2.svg);
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+}
+.five{
+    font-size: 17px;
+}
+.usuarios2{
+    padding-top: 100px;
+    background-color: rgb(246 251 255);
+    text-align: center;
+    margin-top: -1px;
+    line-height: 25px;
+ 
+}
+.five h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.curva4{
+    background: url(images/bg-section-bottom-mobile-2.svg);
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+}
+.six{
+    padding-top: 7rem;
+    text-align: center;
+    padding-bottom: 20rem;
+}
+.six h3 {
+     font-weight: 700;
+     font-size: 30px;
+     margin-bottom: 50px;
+}
+.six a{
+    background: hsl(322, 100%, 66%);
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 15px 50px;
+    box-shadow: 0px 5px 7px #00252e57;
+}
+.curvaci{
+    background: url(images/bg-footer-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    margin-bottom: -1px;
+}
+
+.bgfooter{
+    background: #00252e;
+    
+}
+footer h4{
+    color: white ;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+footer p{
+    color: hsl(0, 0%, 100%);
+    line-height: 30px;
+    font-size: 18px;
+}
+footer form{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    display: FLEX;
+    FLEX-WRAP: wrap;
+    justify-content: end;
+}
+footer form input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+footer form input:focus{
+    border: 2px solid hsl(0, 100%, 63%);
+    outline: 0 none;
+}
+
+footer form button{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background: hsl(322, 100%, 66%);;
+}
+.logofooter{
+    margin-bottom: 20px;
+}
+.contacto{
+    margin-top: 20px;
+}
+.telefono, .correo{
+     display: flex;
+     align-items: center;
+     gap: 2rem; 
+     margin-top: 20px;
+}
+.telefono img, .correo img{
+    width: 30px;
+   
+}
+.iconos-redes{
+    display: flex;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+}
+.iconos-redes img{
+    width: 30px;
+    margin-right: 20px;
+}
+@media (min-width: 900px) {
+    .contenedor{
+        max-width: 90rem;
+        margin: auto ;
+        padding:  0 7rem;
+        
+    }
+    header{
+        margin-top: 50px;
+    }
+    header img{
+        width: 180px;
+        height: 30px;
+        
+    }
+    nav a{
+        
+        padding: 7px 30px;
+        border-radius: 20px;
+       
+         
+    }
+    h1{
+        font-size: 3em;  
+    }
+    .one p{
+    
+        padding: 0 28%;
+        color: hsl(192, 57%, 30%);
+    
+    }
+    .centro{
+        display: block;
+        
+    }
+    .users {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        font-size: 1.5em;
+        justify-content: space-between;
+        padding: 0 84px;
+    }
+   
+    .tres{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: start;
+    }
+    .tres h3{
+        font-size: 2.5rem;
+        padding-bottom: 2rem;
+       
+    }
+    .textoone p {
+        padding-right: 10rem;
+    }
+    .cuatro{
+        display: flex;
+        align-items: center;
+        text-align: start;
+        
+    }
+    .textotwo h3{
+        padding-bottom: 1rem;
+        font-size: 2em;
+    }
+    .cuatro img{
+         width: 80%;
+         margin-bottom: 0;
+    }
+    .Usertwo{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: start;
+        
+    }
+    .five picture {
+        margin-bottom: 0;
+    }
+    .five h3 {
+       
+        margin-top: 0;
+    }
+    .textofive p {
+        padding-right: 10rem;
+    }
+    .six h3{
+        font-size: 3em;
+        font-weight: 700;
+        margin-bottom: 5rem;
+    }
+    .bgfooter .contenedor{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+    footer form input {
+        width: 60%;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 15px;
+        margin-right: 2rem;
+    }
+    footer form button{
+        width: 40%;
+       
+    }
+    footer form button:hover{
+        cursor: pointer;
+        background-color:  hsl(321, 100%, 78%);
+    }
+    footer form{
+        margin-top: 35px;
+        margin-bottom: 20px;
+        display: FLEX;
+        flex-wrap: nowrap;
+        
+    }
+    footer form input:focus{
+        border: 2px solid hsl(0, 100%, 63%)
+    }
+    footer p {
+        color: hsl(210, 40%, 68%);
+        line-height: 30px;
+        font-size: 16px;
+        margin-right: 20%;;
+    }
+   .iconf:hover{
+    filter: brightness(0) saturate(100%) invert(63%) sepia(58%) saturate(2778%) hue-rotate(151deg) brightness(102%) contrast(102%);
+   }
+   .one a{
+    padding: 20px 100px;
+    
+   }
+   .one a:hover {
+    
+    background: hsl(321, 100%, 78%);
+  
+}
+
+.six a:hover {
+    background: hsl(321, 100%, 78%);
+    
+}
+.six a {
+    
+    background: rgb(255, 82, 191);
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 20px 100px;
+    box-shadow: rgb(0 37 46 / 34%) 0px 5px 7px;
+}
+.curva1{
+    background: url(images/bg-section-top-desktop-1.svg);
+}
+.curva2{
+    background: url(images/bg-section-bottom-desktop-1.svg);
+    height: 138px;
+    background-repeat: no-repeat;
+    margin-top: -1px;
+}
+.curva3{
+    background: url(images/bg-section-top-desktop-2.svg);
+   
+}
+.curva4{
+    background: url(images/bg-section-bottom-desktop-2.svg);
+    background-repeat: no-repeat;
+    height: 138px;
+    margin-top: -1px;
+}
+
+.curvaci{
+    background: url(images/bg-footer-top-desktop.svg);
+   
+}
+}
